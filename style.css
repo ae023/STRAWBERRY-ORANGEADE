@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    display: flex;             /* Enable flexbox on the body */
-    justify-content: center;   /* Center horizontally */
-    align-items: center;       /* Center vertically */
-    min-height: 100vh;        /* Full height of the viewport */
-    background-color: #f9f9f9; /* Optional: set a light background color */
+    display: flex;               /* Enable flexbox for centering */
+    justify-content: center;     /* Center horizontally */
+    align-items: flex-start;     /* Align items to the top */
+    min-height: 100vh;          /* Full height of the viewport */
+    background-color: #f9f9f9;  /* Optional: set a light background color */
 }
 
 header {
@@ -15,14 +15,15 @@ header {
     color: #ffffff;
     padding: 10px;
     text-align: center;
+    width: 100%;                /* Full width for header */
 }
 
 main {
-    max-width: 200px;  /* Set max width to 200px */
-    margin: 0 auto;    /* Center the main content */
+    max-width: 200px;           /* Set max width to 200px */
+    margin: 20px;               /* Add margin for spacing */
     padding: 20px;
-    border: 1px solid #ccc; /* Optional: Add border for visibility */
-    background-color: #fff; /* Optional: set a white background for content */
+    border: 1px solid #ccc;     /* Optional: Add border for visibility */
+    background-color: #fff;     /* Optional: set a white background for content */
 }
 
 section {
@@ -33,6 +34,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     background: #f1f1f1;
-    position: absolute; /* Position the footer at the bottom */
-    width: 100%;       /* Make footer full width */
+    width: 100%;                /* Make footer full width */
+    position: relative;         /* Keep footer below main content */
 }
