@@ -28,6 +28,8 @@ nav ul li a {
 }
 
 main {
+    max-width: 200px;  /* Set max width to 200px */
+    margin: 0 auto;    /* Center the main content */
     padding: 20px;
 }
 
